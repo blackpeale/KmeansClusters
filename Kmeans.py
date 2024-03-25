@@ -88,9 +88,9 @@ with st.expander('Data View'):
 st.sidebar.image('cus_ima2.png', caption ='Please enter customer details')
                 
 
-Inc = st.sidebar.number_input('Income')
+Inc = st.sidebar.number_input('Income', 15,200)
 
-Sco = st.sidebar.number_input("Score")
+Sco = st.sidebar.number_input("Score", 1,100)
 
 # st.divider()
 
